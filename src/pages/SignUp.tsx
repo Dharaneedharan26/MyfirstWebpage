@@ -43,7 +43,7 @@ const SignUp = () => {
           <div className="p-2 rounded-lg bg-gradient-to-br from-primary to-secondary">
             <Brain className="w-6 h-6 text-foreground" />
           </div>
-          <span className="font-display font-bold text-xl text-gradient">AI Founders</span>
+          <span className="font-display font-bold text-xl text-gradient">Macro_Minds</span>
         </Link>
 
         {/* Card */}

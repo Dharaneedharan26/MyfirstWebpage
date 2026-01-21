@@ -12,7 +12,7 @@ export const Footer = () => {
               <div className="p-2 rounded-lg bg-gradient-to-br from-primary to-secondary">
                 <Brain className="w-5 h-5 text-foreground" />
               </div>
-              <span className="font-display font-bold text-lg text-gradient">AI Founders</span>
+              <span className="font-display font-bold text-lg text-gradient">Macro_Minds</span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-sm leading-relaxed">
               Empowering the next generation of AI entrepreneurs to build ethical, scalable, and impactful businesses.
@@ -77,7 +77,7 @@ export const Footer = () => {
         
         <div className="pt-8 border-t border-border/50 text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} AI Founders. Built with 💜 for aspiring AI entrepreneurs.
+            © {new Date().getFullYear()} Macro_Minds. Built with 💜 for aspiring AI entrepreneurs.
           </p>
         </div>
       </div>

@@ -24,7 +24,7 @@ export const Navbar = () => {
               <Brain className="w-5 h-5 text-foreground" />
             </div>
             <span className="font-display font-bold text-lg text-gradient hidden sm:block">
-              AI Founders
+              Macro_Minds
             </span>
           </Link>
 
