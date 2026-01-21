@@ -1,7 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Brain, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import macroMindsLogo from "@/assets/macro-minds-logo.png";
 
 export const Navbar = () => {
   const location = useLocation();
@@ -20,9 +21,11 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="p-2 rounded-lg bg-gradient-to-br from-primary to-secondary group-hover:scale-110 transition-transform duration-300">
-              <Brain className="w-5 h-5 text-foreground" />
-            </div>
+            <img 
+              src={macroMindsLogo} 
+              alt="Macro_Minds Logo" 
+              className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300"
+            />
             <span className="font-display font-bold text-lg text-gradient hidden sm:block">
               Macro_Minds
             </span>

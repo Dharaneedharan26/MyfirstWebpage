@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Brain, Github, Twitter, Linkedin } from "lucide-react";
+import { Github, Twitter, Linkedin } from "lucide-react";
+import macroMindsLogo from "@/assets/macro-minds-logo.png";
 
 export const Footer = () => {
   return (
@@ -9,9 +10,11 @@ export const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="p-2 rounded-lg bg-gradient-to-br from-primary to-secondary">
-                <Brain className="w-5 h-5 text-foreground" />
-              </div>
+              <img 
+                src={macroMindsLogo} 
+                alt="Macro_Minds Logo" 
+                className="w-10 h-10 object-contain"
+              />
               <span className="font-display font-bold text-lg text-gradient">Macro_Minds</span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-sm leading-relaxed">

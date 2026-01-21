@@ -2,8 +2,9 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Brain, ArrowRight, Mail, Lock } from "lucide-react";
+import { ArrowRight, Mail, Lock } from "lucide-react";
 import { AnimatedNodes } from "@/components/AnimatedNodes";
+import macroMindsLogo from "@/assets/macro-minds-logo.png";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -35,9 +36,11 @@ const Login = () => {
       <div className="relative z-10 w-full max-w-md">
         {/* Logo */}
         <Link to="/" className="flex items-center justify-center gap-2 mb-8">
-          <div className="p-2 rounded-lg bg-gradient-to-br from-primary to-secondary">
-            <Brain className="w-6 h-6 text-foreground" />
-          </div>
+          <img 
+            src={macroMindsLogo} 
+            alt="Macro_Minds Logo" 
+            className="w-12 h-12 object-contain"
+          />
           <span className="font-display font-bold text-xl text-gradient">Macro_Minds</span>
         </Link>
 
